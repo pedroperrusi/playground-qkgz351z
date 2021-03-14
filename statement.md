@@ -29,6 +29,7 @@ int main() {
     b = 7.5;    // valor constante de b
     c_min = -1; // menor valor do intervalo
     c_max =  1; // maior valor do intervalo
+    num_points = 50; // numero de pontos
     // Cálculo da variaçăo de C entre dois pontos do intervalo
     d_c = (c_max - c_min) / (num_points - 1);
     c = c_min;  // valor inicial de c
